@@ -5,6 +5,8 @@
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 #
+#  bundle exec jekyll serve --livereload
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
@@ -18,16 +20,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Another Devops Blog
+title: Another Devop Blog
 email: scottiepowell@gmail.com
-description: >- Blog dedicated to projects in development, Devops, Linux, Cloud and Proxmox homelab# this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "Devops, Linux, Cloud and Proxmox homelab"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  scottiepowell
 
 # Build settings
 theme: minima
