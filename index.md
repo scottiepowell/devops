@@ -6,4 +6,3 @@ layout: default
 
 <!-- -->
 
-[about us!](about.md)
