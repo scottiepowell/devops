@@ -7,6 +7,8 @@
 #
 #  bundle exec jekyll serve --livereload
 #
+#  
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
@@ -20,16 +22,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Another Devop Blog
+title: Road to Devops
 email: scottiepowell@gmail.com
-description: "Devops, Linux, Cloud and Proxmox homelab"
+description: >- # this means to ignore
+  Blogging in Devops, Linux, Cloud and Proxmox homelab
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: scottiepowell
 github_username:  scottiepowell
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
 
